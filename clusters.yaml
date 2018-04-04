@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: dactyl93-hasura
+  data: null
+  kubeContext: dactyl93
+  name: dactyl93
